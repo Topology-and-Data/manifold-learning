@@ -7,7 +7,7 @@ This is a pure-Julia reproduction of [this Python project on Manifold Learning](
 Download and install Julia 1.6+ from [the official source](https://julialang.org/downloads/).
 
 ### Install IJulia for Jupyter Notebooks
-To use Jupyter Notebooks for Julia, run the Julia application (e.g., `path_to_julia/julia/julia-1.6.0/bin/julia`) following which a window with a `julia>` prompt will appear. Type the below commands to install IJulia that tells the Jupyter server how to launch Julia.
+To use Jupyter Notebooks for Julia, run the Julia application (e.g., `path_to_julia/julia-1.6.0/bin/julia`) following which a window with a `julia>` prompt will appear. Type the below commands to install IJulia that tells the Jupyter server how to launch Julia.
 
 ```
 using Pkg
@@ -39,7 +39,7 @@ Once in the package manager shell, install any required packages (such as `Plots
 
 #### Use an existing environment
 
-If using an existing environment from a a clone of a GitHub repo, simply load and instantiate the existing environment from the `Project.toml` file. If the project contains a manifest (specified in `Manifest.toml`), this will install the packages in the same state that is given by that manifest. Otherwise, it will resolve the latest versions of the dependencies compatible with the project.
+If using an existing environment from a clone of a GitHub repo, simply load and instantiate the existing environment from the `Project.toml` file. If the project contains a manifest (specified in `Manifest.toml`), this will install the packages in the same state that is given by that manifest. Otherwise, it will resolve the latest versions of the dependencies compatible with the project.
 
 ```
 shell> julia
